@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7BF1212"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/boten"
+        android:layout_width="226dp"
+        android:layout_height="225dp"
+        android:background="#00000"
+        tools:layout_editor_absoluteX="528dp"
+        tools:layout_editor_absoluteY="341dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/volte"
+        tools:layout_editor_absoluteX="528dp"
+        tools:layout_editor_absoluteY="341dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="696dp"
+        android:layout_height="341dp"
+        app:srcCompat="@drawable/icoma"
+        tools:layout_editor_absoluteX="292dp"
+        tools:layout_editor_absoluteY="-17dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
