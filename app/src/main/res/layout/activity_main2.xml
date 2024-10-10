@@ -19,7 +19,6 @@
         app:tabMode="fixed"
         android:background="#FFFFFF"/>
 
-    <!-- Botón para volver a MainActivity -->
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/viewPager"
@@ -31,16 +30,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tabLayout"
         app:layout_constraintVertical_bias="1.0"/>
-
-    <Button
-        android:id="@+id/btnBackToMain"
-        android:layout_width="468dp"
-        android:layout_height="199dp"
-        android:backgroundTint="@color/black"
-        android:padding="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/viewPager" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

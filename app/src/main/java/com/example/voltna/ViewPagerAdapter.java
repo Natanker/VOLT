@@ -30,9 +30,9 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
     public CharSequence getPageTitle(int position) {
         // Títulos para las pestañas
         switch (position) {
-            case 0: return "Fragmento 1";
-            case 1: return "Fragmento 2";
-            case 2: return "Fragmento 3";
+            case 0: return "MENU";
+            case 1: return "NOVEDADES";
+            case 2: return "CONFIGURACION";
             default: return null;
         }
     }
