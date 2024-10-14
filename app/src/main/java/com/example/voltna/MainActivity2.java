@@ -16,19 +16,16 @@ public class MainActivity2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2); // Asegúrate de que el layout sea el correcto
+        setContentView(R.layout.activity_main2);
 
-        // Encuentra las vistas
         viewPager = findViewById(R.id.viewPager);
         tabLayout = findViewById(R.id.tabLayout);
 
-        // Configurar el adaptador para ViewPager
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         viewPager.setAdapter(adapter);
 
-        // Configurar el TabLayout para que controle el ViewPager
         tabLayout.setupWithViewPager(viewPager);
 
-        // Aquí podrías agregar cualquier otro código si necesitas más configuración
+
     }
 }

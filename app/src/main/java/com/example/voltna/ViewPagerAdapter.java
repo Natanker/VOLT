@@ -31,7 +31,7 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
         // Títulos para las pestañas
         switch (position) {
             case 0: return "MENU";
-            case 1: return "NOVEDADES";
+            case 1: return "APLICACIONES";
             case 2: return "CONFIGURACION";
             default: return null;
         }

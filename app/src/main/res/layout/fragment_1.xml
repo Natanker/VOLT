@@ -4,5 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#3A010A"
-    tools:context=".Fragment1"/>
+    android:background="#232121"
+    tools:context=".Fragment1">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="312dp"
+        android:layout_height="304dp"
+        android:src="@drawable/care"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
